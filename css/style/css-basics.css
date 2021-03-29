@@ -1,0 +1,12 @@
+.paragraph-three { /* . - селектор по классу*/
+  color: darkorange;
+  font-size: 10px;
+}
+
+h1 {
+  color: darkgrey;
+}
+
+p {
+  text-transform: uppercase;
+}
