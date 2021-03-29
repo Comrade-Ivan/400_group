@@ -3,10 +3,78 @@
   font-size: 10px;
 }
 
-h1 {
+h1 { /*Селектор по тэгу*/
   color: darkgrey;
 }
 
-p {
-  text-transform: uppercase;
+.hidden {
+  display: none;
 }
+
+.header-image {
+  width: 100%;
+}
+
+.navigation {
+  background: rgb(75, 75, 255); /*red greeb blue (0-255, 0-255, 0-255)*/
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list-item {
+  display: inline-block; /*inline - строчный block - блочный inline-block - строчно-блочный*/
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.navigation-list-link {
+  color: white;
+  text-decoration: none; /*Убираем нижнее подчеркивание*/
+}
+
+.about {
+  padding: 0 35px; 
+}
+
+.about-header {
+  text-align: center;
+}
+
+.about-text {
+  text-align: justify;
+}
+
+.employee {
+  padding: 0 35px;
+}
+
+.employee-header {
+  text-align: center;
+}
+
+.employee-card {
+  padding: 15px;
+  border: 2px solid lightgrey;
+  border-radius: 15px;
+  display: inline-block;
+  max-width: 150px;
+}
+
+.employee-card-image {
+  border-radius: 50% 15px 25% 5px; 
+  height: 100px;
+  width: 100px;
+  box-shadow: 4px 4px 1px 0px rgba(0, 0, 255, 0.3);
+  display: block;
+  margin: 0 auto; /*auto работает только если элементу есть по чему выравниваться (чаще всего это display: block занимающий всю ширину)*/
+}
+
+.employee-card-description {
+  text-align: center;
+}
+
+
