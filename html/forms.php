@@ -54,7 +54,8 @@
       <textarea name="about" cols="30" rows="5" placeholder="Расскажите о себе"></textarea>
     </div>
     <input type="submit" value="Зарегистрироваться">
-    <input type="reset" value="Очистить"> <!--Очистка формы-->
+    <input type="reset" value="Очистить"> <!--Очистка формы-->0.
+    
     <input type="button" value="Просто кнопка">
     <button>Еще одна кнопка</button> <!--Воспринимается как submit, если находится внутри формы-->
   </form>
