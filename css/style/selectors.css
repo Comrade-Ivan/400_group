@@ -1,0 +1,65 @@
+* {
+  /*Нормализазия*/
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: blue !important;
+}
+
+.orange-list .orange-list-item {
+  /*Все li внутри .orange-list вне завивимости от уровня вложенности*/
+  color: orange;
+}
+
+.orange-list .bold {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.darkred-list-item-1, 
+.darkred-list-item-2 {
+  /*Множественный селектор*/
+  color: darkred;
+  font-style: italic;
+}
+
+.darkred-list-item-1 {
+  font-style: normal;
+}
+
+.siblings p+p {
+  /*Соседние селекторы*/
+  color: red;
+}
+
+.children>p {
+  /*Дочерний селектор*/
+  color: blue;
+}
+
+div[title="Красный"] {
+  /*Селектор атрибутов*/
+  color: red;
+}
+
+div[class^="col"] {
+  /*Начинается с*/
+  text-align: right;
+}
+
+a[href$=".ru"] {
+  /*Заканчивается на*/
+  color: orange;
+}
+
+input[name*="user"] {
+  /*Содержит*/
+  color: orange;
+}
+
+
+

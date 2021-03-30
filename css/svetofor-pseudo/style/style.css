@@ -1,0 +1,43 @@
+.box {
+  background-color: lightgrey;
+  border: 5px solid grey;
+  border-radius: 15px;
+  padding: 25px;
+  display: inline-block;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  box-sizing: border-box; /*Высота и ширина становится по 150px, а не 156px*/
+  border-radius: 50%;
+  box-shadow: inset 0 0 15px 5px rgba(0, 0, 0, .7);
+}
+
+.red {
+  margin-bottom: 15px;
+  background-color: red;
+}
+
+.red:hover {
+  box-shadow:none;
+}
+
+.red:active {
+  background-color: pink;
+}
+
+.yellow {
+  margin-bottom: 15px;
+  background-color: yellow
+}
+
+.yellow:active {
+  box-shadow: none;
+  background-color: darkorange;
+}
+
+.green {
+  background-color: green;
+}
