@@ -13,7 +13,7 @@
   </div>
   <h2>Логотип яндекс-такси</h2>
   <div style="min-height: 400px">
-    <div class="taxi-logo">LOGO</div>
+    <div class="taxi-logo"></div>
   </div>
 </body>
 </html>
