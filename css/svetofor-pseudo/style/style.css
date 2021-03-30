@@ -15,6 +15,10 @@
   box-shadow: inset 0 0 15px 5px rgba(0, 0, 0, .7);
 }
 
+.square:nth-child(2n+1) {
+  border-color: cyan;
+}
+
 .red {
   margin-bottom: 15px;
   background-color: red;
@@ -40,4 +44,31 @@
 
 .green {
   background-color: green;
+}
+
+.taxi-logo {
+  width: 150px;
+  height: 75px;
+  background-color: yellow;
+  border-radius: 10px 10px 0 0;
+}
+.taxi-logo::before {
+  content: ""; /*Обязательное св-во*/
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background-color: grey;
+  border-radius: 0 0 0 10px;
+  position: relative;
+  top: 100%;
+}
+.taxi-logo::after {
+  content: "";
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background-color: black;
+  border-radius: 0 0 10px 0;
+  position: relative;
+  top: 100%;
 }

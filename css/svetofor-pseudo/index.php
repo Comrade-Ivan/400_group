@@ -11,5 +11,9 @@
     <div class="yellow square"></div>
     <div class="green square"></div>
   </div>
+  <h2>Логотип яндекс-такси</h2>
+  <div style="min-height: 400px">
+    <div class="taxi-logo">LOGO</div>
+  </div>
 </body>
 </html>
