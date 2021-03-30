@@ -27,7 +27,10 @@
     <h1>Заголовок h1</h1>
   </div>
   <header>
-    <img class="header-image" src="http://extendthemes.com/demos/mesmerize-pro-business/wp-content/uploads/sites/20/2018/02/cropped-bizz-inside-header-bg.jpg" alt="">
+    <div class="banner">
+      <img class="header-image" src="http://extendthemes.com/demos/mesmerize-pro-business/wp-content/uploads/sites/20/2018/02/cropped-bizz-inside-header-bg.jpg" alt="">
+      <div class="banner-info"></div>
+    </div>
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-list-item"><a href="" class="navigation-list-link">Главная</a></li>
@@ -44,9 +47,31 @@
     </section>
     <section class="employee">
       <h2 class="employee-header">Наши сотрудники</h2>
-      <div class="employee-card">
-        <img src="http://content.wfmynews2.com/photo/2016/11/01/Cookie%20Monster%20USAT_1478046170218_6692962_ver1.0.JPG" alt="" class="employee-card-image">
-        <p class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, amet, iste voluptate repellat veniam dolorem blanditiis illo ipsa sequi repellendus dolores laudantium ad harum! Deserunt.</p>
+      <div class="employee-container">
+        <div class="employee-card">
+          <img src="http://content.wfmynews2.com/photo/2016/11/01/Cookie%20Monster%20USAT_1478046170218_6692962_ver1.0.JPG" alt="" class="employee-card-image">
+          <p class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, amet, iste voluptate repellat veniam dolorem blanditiis illo ipsa sequi repellendus dolores laudantium ad harum! Deserunt.</p>
+        </div>
+        <div class="employee-card">
+          <img src="http://content.wfmynews2.com/photo/2016/11/01/Cookie%20Monster%20USAT_1478046170218_6692962_ver1.0.JPG" alt="" class="employee-card-image">
+          <p class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, amet, iste voluptate repellat veniam dolorem blanditiis illo ipsa sequi repellendus dolores laudantium ad harum! Deserunt.</p>
+        </div>
+        <div class="employee-card">
+          <img src="http://content.wfmynews2.com/photo/2016/11/01/Cookie%20Monster%20USAT_1478046170218_6692962_ver1.0.JPG" alt="" class="employee-card-image">
+          <p class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, amet, iste voluptate repellat veniam dolorem blanditiis illo ipsa sequi repellendus dolores laudantium ad harum! Deserunt.</p>
+        </div>
+        <div class="employee-card">
+          <img src="http://content.wfmynews2.com/photo/2016/11/01/Cookie%20Monster%20USAT_1478046170218_6692962_ver1.0.JPG" alt="" class="employee-card-image">
+          <p class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, amet, iste voluptate repellat veniam dolorem blanditiis illo ipsa sequi repellendus dolores laudantium ad harum! Deserunt.</p>
+        </div>
+        <div class="employee-card">
+          <img src="http://content.wfmynews2.com/photo/2016/11/01/Cookie%20Monster%20USAT_1478046170218_6692962_ver1.0.JPG" alt="" class="employee-card-image">
+          <p class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, amet, iste voluptate repellat veniam dolorem blanditiis illo ipsa sequi repellendus dolores laudantium ad harum! Deserunt.</p>
+        </div>
+        <div class="employee-card">
+          <img src="http://content.wfmynews2.com/photo/2016/11/01/Cookie%20Monster%20USAT_1478046170218_6692962_ver1.0.JPG" alt="" class="employee-card-image">
+          <p class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, amet, iste voluptate repellat veniam dolorem blanditiis illo ipsa sequi repellendus dolores laudantium ad harum! Deserunt.</p>
+        </div>
       </div>
       <div class="box"></div> <!--Выравниваем по середине-->
     </section>

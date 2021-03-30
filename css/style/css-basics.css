@@ -15,6 +15,20 @@ h1 { /*Селектор по тэгу*/
   width: 100%;
 }
 
+.banner {
+  position: relative;
+}
+
+.banner-info {
+  width: 30%;
+  min-height: 150px;
+  background-color: rgba(50, 50, 200, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .navigation {
   background: rgb(75, 75, 255); /*red greeb blue (0-255, 0-255, 0-255)*/
 }
@@ -22,10 +36,13 @@ h1 { /*Селектор по тэгу*/
 .navigation-list {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
 }
 
 .navigation-list-item {
-  display: inline-block; /*inline - строчный block - блочный inline-block - строчно-блочный*/
+  /* display: inline-block; */ /*inline - строчный block - блочный inline-block - строчно-блочный*/
   margin-left: 15px;
   margin-right: 15px;
   padding: 10px;
@@ -56,12 +73,18 @@ h1 { /*Селектор по тэгу*/
   text-align: center;
 }
 
+.employee-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .employee-card {
   padding: 15px;
   border: 2px solid lightgrey;
   border-radius: 15px;
-  display: inline-block;
   max-width: 150px;
+  margin: 10px;
 }
 
 .employee-card-image {
