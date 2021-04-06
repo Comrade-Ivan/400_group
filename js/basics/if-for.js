@@ -137,8 +137,35 @@ for (let i = 0; i < 12; i++) {
 }
 console.log(price);
 
+//break и continue
 
+//На 3м объекте необходимо завершить цикл
+for(let i = 0; i < 5; i++) {
+  if (i == 2) {
+    console.error("Ошибка!");
+    break;
+  }
+  console.log(i);
+}
 
+//Необходимо пропустить 3й объект
+for (let i = 0; i < 5; i++) {
+  if (i == 2) continue;
+  //Если после условия или цикла всего одна инструкция - фигурные скобки можно опустить
+  console.log(`Отгружаем товар №${i + 1}`);
+}
+
+//Цикл, вложенный в цикл
+//Необходимо сформировать таблицу умножения
+
+for(let i = 1; i < 10; i++) {
+  let multiplyString = "";
+  for(let j = 1; j < 10; j++) {
+   multiplyString += `${i} * ${j} = ${i*j}   `;
+    //console.log(i + " * " + j + " = " + (i * j))
+  }
+  console.log(multiplyString);
+}
 
 
 
