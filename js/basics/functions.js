@@ -22,14 +22,14 @@ function wave() {
 }
 wave();
 
-// function checkSpeedLimit() {
-//   let road = "town"
-//   if (road === "town") {
-//     let maxSpeed = 60;
-//     console.log(road);
-//   }
-//   console.log(maxSpeed);
-// }
+function checkSpeedLimit() {
+  let road = "town"
+  if (road === "town") {
+    let maxSpeed = 60;
+    console.log(road);
+  }
+  console.log(maxSpeed);
+}
 
 //Параметры функции
 const userMessage = prompt("Введите сообщение");
@@ -74,4 +74,42 @@ function calcRectanglePerimetr(a, b) {
   return a*2 + b*2;
 }
 
+//Function expression
+
+function f(param1, param2) { /*Function declaration*/
+  //...ваш код...
+  console.log("Вызываем f")
+}
+f()
+
+
+//f2(); Ошибка - переменная с функцией еще не объявлена
+let f2 = function (param1, param2) { /*Function expression*/
+  //...ваш код...
+  console.log("Вызываем f2");
+};
+f2();
+//Мы можем скопировать функцию в другую переменную
+let newFunc = f2;
+newFunc();
+
+f2 = null;
+//f2(); //Ошибка - null не является функцией (переменная перезаписана)
+
+//Функции-стрелки
+
+function sqrt(a) {
+  return a * a;
+}
+// Варианты идентичны
+let pow = (a) => a * a;
+// Варианты идентичны
+let pow2 = (a) => {
+  let result = a * a;
+  return result;
+};
+
+console.log( sqrt(3) );
+console.log( pow(3) );
+console.log( pow2(3) );
 
