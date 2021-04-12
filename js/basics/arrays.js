@@ -130,10 +130,7 @@ console.log(string); //["б", "у", "л", "о", "ч", "к", "и"]
 string = string.reverse() //Переворачивает массив
 console.log(string); //["и", "к", "ч", "о", "л", "у", "б"]
 string = string.join("");
-console.log(string); //икчолуб
-
-
-
+console.log(string); //"икчолуб"
 
 
 
